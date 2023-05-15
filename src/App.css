@@ -38,8 +38,7 @@ form select {
   background: #e4e4e4;
 }
 
-form input[type="number"],
-form input[type="text"] {
+form input[type="number"] {
   text-align: center;
 }
 
