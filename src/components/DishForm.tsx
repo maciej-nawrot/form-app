@@ -119,6 +119,7 @@ const DishForm = () => {
             Number of Slices:
             <input
               type="number"
+              min="1"
               value={noOfSlices}
               onChange={(e) => setNoOfSlices(+e.target.value)}
               required
@@ -130,6 +131,7 @@ const DishForm = () => {
             <input
               type="number"
               step="0.01"
+              min="0.01"
               value={diameter}
               onChange={(e) => setDiameter(+e.target.value)}
               required
@@ -172,6 +174,7 @@ const DishForm = () => {
             Slices of Bread:
             <input
               type="number"
+              min="1"
               value={slicesOfBread}
               onChange={(e) => setSlicesOfBread(+e.target.value)}
               required
@@ -189,6 +192,7 @@ const DishForm = () => {
         Name:
         <input
           type="text"
+          placeholder="Enter dish name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
