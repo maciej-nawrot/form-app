@@ -10,4 +10,8 @@ $ npm install
 $ npm start
 ```
 
+## Versions
+* npm version: 8.19.2
+* node version: 16.18.0
+
 
