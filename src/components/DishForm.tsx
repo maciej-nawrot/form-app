@@ -192,7 +192,7 @@ const DishForm = () => {
         Name:
         <input
           type="text"
-          placeholder="Enter dish name"
+          placeholder="Enter the dish name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
